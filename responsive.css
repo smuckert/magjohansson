@@ -1,0 +1,82 @@
+@media screen and (max-width: 480px) {
+
+  #clockdiv
+  {
+    font-size: 0.9em;
+  }
+  #clockdiv2 {
+    font-size: 0.9em;
+  }
+  .expandh2 {
+    font-size: 1em;
+  }
+  .expand {
+    font-size: 0.8em;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  header > div,
+  header > div h1,
+  header nav {
+    height: auto;
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 660px) {
+
+/********************
+---------HEADER-------
+*********************/
+#logo {
+  display: block;
+  max-width: 300px;
+}
+#logo h1 {
+  max-width: 300px;
+}
+#logo h2 {
+  max-width: 300px;
+}
+header nav {
+  max-width: 320px;
+}
+nav {
+  background: none;
+  float: right;
+  font-size: 1.2em;
+  margin-right: 5%;
+  text-align: right;
+  width: 45%;
+}
+
+#logo {
+  float:left;
+  margin-left: 5%;
+  text-align: left;
+  width: 45%;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+header {
+  /* border-bottom: 1px solid #000; */
+  margin-bottom: 60px;
+
+}
+
+
+
+}
