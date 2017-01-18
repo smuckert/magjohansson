@@ -12,10 +12,10 @@ function stop()
 
 function mytimer() // counter 1
 {
-    var obj = getTime('2018-01-15');
+    var obj = getTime('2018-01-15'); //deadline
 
     var kvar = "Dagar:" + obj.days +'<br>'+ " Timmar:" + obj.hours;
-    document.getElementById("clockdiv").innerHTML = kvar;
+    document.getElementById("clockdiv").innerHTML = kvar; //integrera koden i clockdiv
 }
 
 function mytimer2() // counter 2
