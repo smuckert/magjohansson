@@ -7,17 +7,14 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="responsive.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous">
-  </script>
+  
 </head>
 
   <?php
     include_once('includes/head.php');
     include_once('includes/header.php');
     include_once('includes/footer.php');
+    include_once('includes/hangman.php');
     
 
     $p = $_GET['page'];
@@ -44,17 +41,6 @@
 
   ?>
 
-  <script src="demo/jquery.js"></script>
-    <script src="demo/jquery.easteregg.js"></script>
-    <script>
-      $(function () {
-        $(document).easteregg({
-          sequence : [38, 38, 40, 40]
-        , callback : function () {
-            window.location.replace('demo/hangman.php');
-          }
-        });
-      });
-    </script>
+  
 
  

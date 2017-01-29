@@ -5,7 +5,7 @@ $mysql_password = "apansson";
 $mysql_database = "219437-mag";
 $prefix = "";
 $db = mysqli_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Could not connect database");
-mysqli_select_db($mysql_database, $db) or die("Could not select database");
+mysqli_select_db($db, $mysql_database) or die("Could not select database");
 ?>
 
 
